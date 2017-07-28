@@ -1,26 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    /*height: 100%;*/
     font-family: "Comfortaa", "Helvetica", sans-serif;
     color: #333333;
-    box-sizing: border-box;
-
-}
-.fixed {
-    position: fixed;
-}
-.container {
-        /*width: 100%;*/
+    letter-spacing: 0.2em;
 }
 body {
-    position: relative;
+    /*margin: 0;
+    padding: 0;*/
 }
-
 main{
     background-color: RGB(209,230,212);
-    margin-top: -1.5em;
-    /*background-color: black;*/
+}
+ul.nav{
+    /*margin-right: 5em;*/
+}
+ul.nav li {
+    /*margin-right: 2em;*/
 }
 .navbar-brand {
     font-variant: small-caps;
@@ -29,14 +25,14 @@ main{
     border-radius: 25px 25px 25px 25px;
 }
 #title-row{
-    margin: 3em;
+    margin-top: 3em;
     background-color: #FFFFFF;
 }
 #title-name{
     font-size: 7vw;
+    font-weight: bold;
     font-variant: small-caps;
-    /*text-align: left;*/
-    /*float: right;*/
+
 }
 
 #title-role{
@@ -46,35 +42,39 @@ main{
 }
 #title-group
 {
-    /*position: absolute;*/
-    /*padding: 10%;*/
-    /*height: ;*/
     margin-top: 3em;
-    /*width: 100px;*/
     text-align: center;
-
-    /*float: right;*/
 }
 #headshot img
 {
     width: 25%;
     float: left;
     /*display: inline;*/
-    border-radius: 25px;
+    /*border-radius: 25px;
     -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
 -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);*/
 }
 
 #about-row{
     background-color: RGB(255,255,206);
 }
 
+#portfolio-row{
+    background-color: RGB(206,210,217);
+}
+
 p {
+    text-indent: 2em;
     font-family:"PT-SANS",sans-serif;
     line-height: 2em;
     font-size: 1.5em;
     letter-spacing: 0.2em;
+}
+
+p::first-letter {
+    font-size: 2em;
+
 }
 footer{
     background-color: black;
@@ -95,8 +95,6 @@ footer h1 {
 }
 
 #social-links span:hover{
-    /*width: 10%;
-    height: 10%;*/
     transform: rotate(360deg);
 }
 
