@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*height: 100%;*/
+    font-family: "Comfortaa", "Helvetica", sans-serif;
+    color: #333333;
+    box-sizing: border-box;
+
+}
+.fixed {
+    position: fixed;
+}
+.container {
+        /*width: 100%;*/
+}
+body {
+    position: relative;
+}
+
+main{
+    background-color: RGB(209,230,212);
+    margin-top: -1.5em;
+    /*background-color: black;*/
+}
+.navbar-brand {
+    font-variant: small-caps;
+}
+.rounded {
+    border-radius: 25px 25px 25px 25px;
+}
+#title-row{
+    margin: 3em;
+    background-color: #FFFFFF;
+}
+#title-name{
+    font-size: 7vw;
+    font-variant: small-caps;
+    /*text-align: left;*/
+    /*float: right;*/
+}
+
+#title-role{
+    font-size: 4vw;
+    font-variant: small-caps;
+    /*float: right;*/
+}
+#title-group
+{
+    /*position: absolute;*/
+    /*padding: 10%;*/
+    /*height: ;*/
+    margin-top: 3em;
+    /*width: 100px;*/
+    text-align: center;
+
+    /*float: right;*/
+}
+#headshot img
+{
+    width: 25%;
+    float: left;
+    /*display: inline;*/
+    border-radius: 25px;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+#about-row{
+    background-color: RGB(255,255,206);
+}
+
+p {
+    font-family:"PT-SANS",sans-serif;
+    line-height: 2em;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+}
+footer{
+    background-color: black;
+    padding-bottom: 1.5em;
+}
+
+footer h1 {
+    font-size: 6vh;
+    color: RGB(209,230,212);
+}
+
+#social-links a{
+    display: inline;
+}
+#social-links span{
+    color: RGB(209,230,212);
+    transition: color 0.8s, transform 0.8s;
+}
+
+#social-links span:hover{
+    /*width: 10%;
+    height: 10%;*/
+    transform: rotate(360deg);
+}
+
+/*
+SOCIAL MEDIA COLORS
+https://www.lockedowndesign.com/social-media-colors/
+*/
+
+#facebook span:hover{
+    color: #3b5998;
+}
+#twitter span:hover{
+    color: #00b6f1;
+}
+#youtube span:hover{
+    color: #b31217;
+}
+#linkedin span:hover{
+    color: #007bb6;
+}
+#github span:hover{
+    color: #ffffff;
+}
