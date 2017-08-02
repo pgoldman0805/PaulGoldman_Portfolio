@@ -1,0 +1,198 @@
+/*SOCIAL MEDIA COLORS
+https://www.lockedowndesign.com/social-media-colors/
+*/
+$facebookColor: #3b5998;
+$twitterColor: #00b6f1;
+$youtubeColor: #b31217;
+$linkedinColor: #007bb6;
+$githubColor: #000000;
+
+// $backgroundColor: RGB(209,230,212);
+$textColor: #333333;
+
+// $titleColor: RGB(255,229,255);
+// $aboutColor: RGB(200,230,200);
+// $portfolioColor: RGB(255,255,206);
+// $contactColor: RGB(209,229,255);
+$titleColor: #8B9A9E;
+$aboutColor: #EED1DC;
+$portfolioColor: #E5EAEB;
+$contactColor: #B8B6A1;
+$footerColor: #9E9D8E;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa", "Helvetica", sans-serif;
+    color: $textColor;
+    letter-spacing: 0.2vw;
+}
+.navbar-default {
+    box-shadow: 0px 1px 14px RGBA(0,0,0,0.9);
+    // box-shadow: inset 3px 3px 13px RGBA(0,0,0,0.2);
+}
+.red {
+    color: red;
+}
+
+.well {
+    // background-color: $contactColor;
+    // box-shadow: 1px 3px 1px black;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid rgba(0,0,0,0.6);
+    margin-top: 2em;
+}
+body {
+    // position: relative;
+}
+main {
+    position: relative;
+    // animation: fadeIn 2s ease-in ;
+}
+h1,h2,h3,h4,.navbar-brand {
+    font-variant: small-caps;
+}
+h2 {
+    font-size: 5vw;
+}
+
+.row {
+    padding: 5em 0;
+    border-bottom: 1px solid black;
+}
+#title-row{
+    // visibility: hidden;
+    background-color: $titleColor;
+
+    min-height: 100%;
+}
+
+#title-name{
+    font-size: 7vw;
+    font-weight: bold;
+}
+#title-role{
+    font-size: 5vw;
+}
+
+#title-group
+{
+    text-align: center;
+}
+#headshot img
+{
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 8vh;
+    // -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    // -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    // box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+#about-row{
+    // visibility: hidden;
+    background-color: $aboutColor;
+}
+
+#portfolio-row{
+    // visibility: hidden;
+    background-color: $portfolioColor;
+    // background-image: url("../assets/images/bg/bg-binary.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+}
+
+#contact-row {
+    // visibility: hidden;
+    background-color: $contactColor;
+}
+
+.container-fluid{
+    // min-height: 100%;
+}
+p {
+    // text-align: justify;
+    font-family:"Lato", sans-serif;
+    line-height: 8vh;
+    font-size   : 3vh;
+    letter-spacing: 0.2vw;
+    &::first-letter
+    {
+        font-size: 10vh;
+    }
+}
+
+.portfolio-image-container{
+    text-align: center;
+    margin: 2em;
+    img:hover{
+        outline: 2px solid black;
+    }
+}
+
+form * {
+    // input {
+        font-family: 'Lato', 'Helvetica', sans-serif;
+        font-style: bold;
+        letter-spacing: normal;
+    // }
+    // button {
+        // margin: 0 auto;
+    // }
+
+}
+
+
+footer{
+    background-color: $footerColor;
+    padding-bottom: 1.5em;
+    h2 {
+        color: $textColor;
+    }
+    .row {
+        border-bottom: none;
+    }
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    // 100% {
+    //     opacity: 0;
+    // }
+}
+
+#social-links {
+    a {
+
+        display: inline;
+    }
+    span {
+        color: $textColor;
+        transition: color 0.8s, transform 0.8s;
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+#facebook span:hover{
+    color: $facebookColor;
+}
+#twitter span:hover{
+    color: $twitterColor;
+}
+#youtube span:hover{
+    color: $youtubeColor;
+}
+#linkedin span:hover{
+    color: $linkedinColor;
+}
+#github span:hover{
+    color: $githubColor;
+}
